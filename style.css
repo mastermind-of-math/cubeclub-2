@@ -1,0 +1,84 @@
+body{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+.menu{
+    z-index:10 ;
+    position: fixed;
+    top: 0px;
+    list-style: none;
+    font-family: 'Comfortaa', 'cursive';
+    cursor: pointer;
+    font-size:50px;
+    margin-top: 0px;
+    width: 100%;
+    background-color: rgb(190, 190, 190);
+    color: black;
+}
+.links{
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-size: 25px;
+    border-radius: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+}
+
+.links:hover{
+    background-color: rgba(94, 94, 94, 0.7);
+}
+
+.div{
+    height: 6px;
+    width: 1000px;
+    background-color: rgb(122, 121, 117);
+    margin: 8px auto;
+}
+
+#rec-h1{
+    margin-top: 300px;
+}
+
+.recshow{
+    font-size:25px; 
+}
+
+#uno{
+    color: rgb(228, 214, 28);
+    font-size: 40;
+}
+
+#dos{
+    color:grey;
+    font-size: 35px;
+}
+
+#tres{
+    color: rgb(110, 0, 0);
+    font-size:30px;
+}
+
+.anchor-on-a-ship{
+    padding-bottom: 70px;
+    font-family: 'Comfortaa', 'cursive' ;
+    font-size: 30px;
+    border-radius: 15px;
+}
+
+.anchor-on-a-ship:hover{
+    color: darkgreen;
+    font-size:40px ;
+}
+
+.records{
+    list-style: none;
+}
+
+.members{
+    list-style: none;
+    font-size: 30px;
+}
